@@ -1,6 +1,7 @@
 package mediatheque;
 
 public class VisitorImpressionAll extends VisitorImpression{
+    
     public void visit(Book book) {
         System.out.println("Book: " + book.getTitle());
     }

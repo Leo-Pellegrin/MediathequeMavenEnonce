@@ -16,10 +16,6 @@ public class CD extends Item {
 		this.numberOfTracks = numberOfTracks;
 	}
 
-	public void print() {
-		System.out.println(this);
-	}
-
 	public void accept(Visitor v) {
 		v.visit(this);
 	}

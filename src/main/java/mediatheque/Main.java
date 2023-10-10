@@ -8,7 +8,8 @@ public class Main {
         mediatheque.addItem( new Book("Philip K. Dick", "Le Maître du haut chateau"));
         mediatheque.addItem( new CD(12, "Sergeant Peppers"));
         
-        //mediatheque.printOnlyBooks();
-        //mediatheque.printOnlyCDs();
+        mediatheque.printCatalogue();
+        mediatheque.printOnlyBook();
+        mediatheque.printOnlyCD();
     }
 }
